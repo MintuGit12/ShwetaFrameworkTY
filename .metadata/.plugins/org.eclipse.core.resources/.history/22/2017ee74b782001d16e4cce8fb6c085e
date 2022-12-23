@@ -58,8 +58,8 @@ CreatingNewCampaign createCamp=new CreatingNewCampaign(driver);
 createCamp.setCampaignNameTxtBox(value);
 createCamp.getSaveButton().click();
 
-CampaignInformation campInfor=new CampaignInformation(driver);
-campInfor.validationOfPage(driver,value);
+//CampaignInformation campInfor=new CampaignInformation(driver);
+//campInfor.validationOfPage(driver,value);
 	
 }
 }
