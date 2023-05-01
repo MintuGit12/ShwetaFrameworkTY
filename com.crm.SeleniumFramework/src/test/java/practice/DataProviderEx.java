@@ -47,6 +47,10 @@ System.out.println(index+" is the capital "+value);
 public Object[][] dataProEx() throws IOException
 {
 		Scanner sc=new Scanner(System.in);
+	
+	
+	
+	
 		FileInputStream fis=new FileInputStream("./common_data.property");
 		Properties p=new Properties();
 		p.load(fis);
@@ -54,6 +58,7 @@ public Object[][] dataProEx() throws IOException
 	for(int i=0;i<ob.length;i++)
 	{
 		System.out.println("enter the key ");
+		System.out.println("To take the pull from main");
 		String key=sc.next();
 		ob[i][0]=i;
 		ob[i][1]=p.getProperty(key);
