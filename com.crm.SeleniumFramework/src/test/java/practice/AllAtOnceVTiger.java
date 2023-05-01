@@ -85,6 +85,7 @@ cnew.getWebsiteTxtBox().sendKeys(det);
 	String parent = driver.getWindowHandle();
 	wlib.handleChildWindow(driver, "Product");
 	driver.findElement(By.partialLinkText("Qspiders")).click();
+	System.out.println("updated by git desktop");
 	driver.switchTo().window(parent);
 	
 	createCamp.getSaveButton().click();
