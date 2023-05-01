@@ -26,7 +26,8 @@ public class MakeMyTrip {
 	}
 	public static void main(String[] args) throws IOException, InterruptedException {
 	Scanner sc=new Scanner(System.in);
-	System.out.println("enter the departure and arrivel month you want to travel ");
+	System.out.println("enter the departure and arrivel month you want to travel");
+	System.out.println("using git desktop");
 	String go = sc.next();
 	String come = sc.next();
 		FileInputStream fis=new FileInputStream("./mmt.property.txt");
