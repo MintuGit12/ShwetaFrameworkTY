@@ -8,6 +8,7 @@ public class DataProviderEx {
 	public void location(String src,String dest)
 	{
 	System.out.println("location is from :"+src+"to :"+dest);
+		System.out.println("location is from :"+src+"to :"+dest);
 	}
 	@DataProvider
 	public Object[][] dataProvider()
