@@ -20,6 +20,7 @@ public void m1(String coun,String cap)
 @Test(dataProvider = "dataProEx1")
 public void m2(String coun,String cap)
 {
+	System.out.println("git desktop practice");
 	System.out.println("Softassertion ex ");
 	System.out.println("Softassertion ex with data provider");
 	SoftAssert s=new SoftAssert();
